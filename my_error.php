@@ -1,6 +1,6 @@
 <?php
-
-function countDown() {
+function countDown() 
+{
     $i = 12; 
     try {
         throw new Exception('foo');
